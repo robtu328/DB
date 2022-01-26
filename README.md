@@ -79,7 +79,7 @@ Part of the code is inherited from [MegReader](https://github.com/Megvii-CSG/Meg
   
   $CUDA_HOME = /usr/local/cuda
   
-  CUDA installation. 
+  ###CUDA installation. 
   wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
   sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
   wget https://developer.download.nvidia.com/compute/cuda/11.3.0/local_installers/cuda-repo-ubuntu2004-11-3-local_11.3.0-465.19.01-1_amd64.deb
