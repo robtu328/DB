@@ -57,6 +57,30 @@ Part of the code is inherited from [MegReader](https://github.com/Megvii-CSG/Meg
   cd assets/ops/dcn/
   python setup.py build_ext --inplace
 
+
+  # Robin Setup
+  conda create --name cda113 python=3.8
+  Conda activate cda113
+
+  conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+  conda install -c conda-forge opencv
+  conda install -c anaconda pyyaml
+  conda install -c conda-forge tqdm
+  conda install -c conda-forge tensorboardX
+  conda install -c conda-forge anyconfig
+  conda install -c conda-forge munch
+  conda install -c anaconda scipy
+  conda install -c conda-forge shapely
+  conda install -c conda-forge pyclipper
+  conda install -c anaconda gevent
+  conda install -c anaconda gevent-websocket
+  conda install -c anaconda flask
+  conda install -c conda-forge imgaug
+  
+![image](https://user-images.githubusercontent.com/17120313/151102574-3d200c27-7dca-4505-b6eb-0fb7c39df7de.png)
+
+
+
 ```
 
 ## Models
